@@ -36,3 +36,27 @@ Certainly! Lazygit is a fantastic tool for simplifying Git interactions through 
 Remember, lazygit isn’t my full-time job, but it’s a hefty part-time job. If you find it useful, consider sponsoring the project! 🚀
 
 For more details, visit the official GitHub repository3. Happy Git-ing! 🍌
+
+
+    Description :
+        LazyGit est un projet open-source hébergé sur GitHub. Il a été créé par Jesse Duffield.
+        Cet outil vous permet d’effectuer des opérations git courantes de manière plus conviviale et intuitive.
+
+    Fonctionnalités :
+        Stager des lignes individuelles : Appuyez sur la barre d’espace pour mettre en scène une ligne sélectionnée, ou appuyez sur v pour sélectionner une plage de lignes.
+        Rebase interactif : Appuyez sur e sur un commit pour démarrer un rebase interactif. Vous pouvez ensuite fusionner (s), corriger (f), supprimer (d), éditer (e), monter (ctrl+i) ou descendre (ctrl+j) des commits dans le fichier TODO avant de continuer le rebase.
+        Cherry-pick, Bisect, Nuke the working tree, Amend an old commit, Filter, Invoke a custom command, Worktrees, etc.
+
+    Installation :
+        Pour Ubuntu, vous pouvez installez Lazy Git avec la commande suivante :
+
+        sudo apt-get install lazygit
+
+        Pour d’autres distributions, vous pouvez consulter les instructions d’installation sur la page GitHub.
+
+    Contribuer :
+        Si vous souhaitez contribuer au projet, consultez la section Contributing sur GitHub.
+
+    Remarque :
+        LazyGit n’est pas mon travail à temps plein, mais c’est un projet auquel je consacre beaucoup de temps. Si vous souhaitez soutenir le projet, envisagez de me sponsoriser sur GitHub.
+
