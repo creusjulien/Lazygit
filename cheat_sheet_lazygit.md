@@ -3,9 +3,17 @@
 ## Installation
 
 Pour installer lazygit, vous pouvez utiliser un gestionnaire de packages comme Homebrew sur macOS ou APT sur Linux. Par exemple :
+
+ Sur macOS
  
-`brew install lazygit`   # Sur macOS
-`sudo apt-get install lazygit`  # Sur Linux (Debian/Ubuntu)
+`brew install lazygit`
+
+Sur Linux (Debian/Ubuntu)
+
+LAZYGIT_VERSION=`$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')`
+curl -Lo lazygit.tar.gz `"https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"`
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit /usr/local/bin
 
 ## Lancement de LazyGit
 
